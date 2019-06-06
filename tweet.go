@@ -35,6 +35,7 @@ type Tweet struct {
 	PossiblySensitive           bool                   `json:"possibly_sensitive"`
 	PossiblySensitiveAppealable bool                   `json:"possibly_sensitive_appealable"`
 	RetweetCount                int                    `json:"retweet_count"`
+	ReplyCount		    int			   `json:"reply_count"`
 	Retweeted                   bool                   `json:"retweeted"`
 	RetweetedStatus             *Tweet                 `json:"retweeted_status"`
 	Source                      string                 `json:"source"`
